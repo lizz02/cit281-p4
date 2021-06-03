@@ -229,6 +229,7 @@ module.exports = {
 ### Create a REST API which replies to client requests with JSON. Account for unmatched routes and use requests from the client or add or delete questions. 
 
 ```
+
 const fastify = require("fastify")();
 const {getQuestion, getAnswer, getQuestionAnswer, getQuestions, getAnswers, getQuestionsAnswers, addQuestionAnswer, updateQuestionAnswer, deleteQuestionAnswer} = require('./p4-module'); 
 
@@ -404,7 +405,8 @@ const hostname = 'localhost';
 const port = 8080;
 fastify.listen(port, hostname, () => {
     console.log(`server running @ http://${hostname}:${port}/`)
-});```
+});
+```
 
 Node.js configuration file:
 
