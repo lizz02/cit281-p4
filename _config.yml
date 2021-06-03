@@ -1,0 +1,3 @@
+theme: jekyll-theme-midnight
+title: CIT281 Project 4
+description: Create a node.js sever which can handle requests using the “GET” “PUSH” “POST” and “DELETE” verbs. A REST API will work with data in the form of questions and answers which will be stored, retrieved, and updated according to server requests.
