@@ -18,7 +18,7 @@
   - Installing fastify
   - Initializing as a node.js file
   - Using http "GET" "POST" "PUT" and "DELETE" verbs
-  - Utilizing the html MIME type
+  - Utilizing the json MIME type
   - Returning a status code
   - Responding to client requests and handling query parameters
   - Parsing JSON and converting information to JSON using .stringify()
