@@ -7,11 +7,11 @@
     - Lambda expressions
     - Object destructuring
     - for loops
-    - try...catch operater
+    - try...catch operator
     - Throwing errors
     - .push() method
     - .splice() method
-    - if...else statments
+    - if...else statements
     - template literals
     - deep cloning
 - Web server Node.js JavaScript code
@@ -49,7 +49,7 @@ module.exports = {
   data,
 };
 ```
-### Create a module file containing functions which return, add, or delete information from the data array. Return an error if the the arguments passed are invalid.  
+### Create a module file containing functions which return, add, or delete information from the data array. Return an error if the arguments passed are invalid.  
 
 ```
 const {data} = require('./p4-data'); 
@@ -204,7 +204,7 @@ const deleteQuestionAnswer = (info = {}) => {
     qa.error = err;
   } finally {
     if(qa.error === "" ) {
-      qa.message = `Question ${info} delted`;
+      qa.message = `Question ${info} deleted`;
       qa.number = info;
       data.splice((info -1), 1);
     }
