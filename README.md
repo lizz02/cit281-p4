@@ -21,7 +21,7 @@ const data = [
 
 
 ## Source Code
-- JavaScript: [Server](https://github.com/lizz02/cis111-p5/blob/main/p5.js) | [Module](https://github.com/lizz02/cis111-p5/blob/main/p5-words.js)
+- NodeJS: [Server](https://github.com/lizz02/cit281-p4/blob/main/p4-server.js) | [Module](https://github.com/lizz02/cit281-p4/blob/main/p4-module.js)
 
 
 [Return to the main page](https://lizz02.github.io/)
